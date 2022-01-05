@@ -17,6 +17,11 @@ a {
   color:white;
 }
 
+.plan {
+  background:rgba(255,255,255,0.2);
+  text-align: center;
+  border-radius: .5em;
+}
 .plan ul {
   margin: 0;
   padding: 0;
@@ -54,9 +59,35 @@ a {
   margin: 10px 0;
 }
 
-
 .pricing-grid {
   max-width:750px;
   margin: 0 auto;
-  
+  /* border: 1px solid orchid; */
 }
+
+.plan {
+  margin: 2em;
+  padding: 1em;
+}
+
+.cta {
+  display: block;
+  width: 100%;
+}
+
+/* Flexbox Styling */
+.pricing-grid {
+  display: flex;
+  align-items: center;
+}
+
+.plan {
+  flex: 1;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+}
+
+/* .cta, .price {
+  align-self: flex-end;
+} */

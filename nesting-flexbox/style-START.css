@@ -23,12 +23,19 @@ img {
   max-width:100%;
 }
 
+/* li {
+  border: 1px solid orchid;
+} */
 a {
   color:white;
   text-decoration: none;
   font-size: 15px;
   background:rgba(0,0,0,0.2);
   padding:20px 5px;
+  transition: all 0.5s;
+}
+.arrow > a {
+  font-size: 2.5em;
 }
 a:hover {
   background:rgba(0,0,0,0.4);
@@ -41,3 +48,27 @@ a:hover {
   padding: 0; 
 }
 
+/*********** Flexbox Styling ***********/
+.slider-nav ul {
+  display: flex;
+}
+.slider-nav li {
+  text-align: center;
+  flex: 2;
+  display: flex;
+}
+.slider-nav .arrow {
+  flex: 1
+}
+
+.slider-nav a {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .slider-nav span {
+  display: block;
+  width: 100%;
+} */

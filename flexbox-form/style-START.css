@@ -50,6 +50,7 @@ a {
 .flex-form {
   z-index: 10;
   position: relative;
+  border: 10px solid rgba(0,0,0,0.2);
 }
 
 .flex-form > * {
@@ -69,3 +70,15 @@ a {
 }
 
 /*Flexbox Starts Here*/
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-form {
+  display: flex;
+}
+.flex-form > input[type='search'] {
+  flex-basis: 500px;
+}

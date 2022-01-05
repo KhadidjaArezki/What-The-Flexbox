@@ -43,9 +43,11 @@ a.button {
 
 .content {
   padding:20px;
+  /* margin-top: 6.3em; */
   background:white;
   box-shadow:inset 0 5px 0 rgba(0,0,0,0.1);
   line-height: 1.6;
+  overflow-y: scroll;
 }
 
 .content img {
@@ -102,3 +104,17 @@ a.button {
 /*
   Overall Layout
 */
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-bar {
+  display: flex;
+}
